@@ -24,7 +24,7 @@ class GithubSpider(scrapy.Spider):
     name = 'github_repositories' # Unique name for the spider
 
    
-    start_urls = ['https://github.com/Duckens03? tab=repositories']
+    start_urls = ['https://github.com/Duckens03?tab=repositories']
 
     # Custom settings specific to this spider
     custom_settings = {
